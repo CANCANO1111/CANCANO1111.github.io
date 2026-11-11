@@ -1,0 +1,359 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>cancano1111</title><style>@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;500&display=swap');*{box-sizing:border-box}html{scroll-snap-type:y mandatory;scroll-padding-top:0px;scroll-behavior:smooth}body{margin:0;background:#fff;color:#252525;font-family:Montserrat,Arial,sans-serif;overflow-x:hidden}.page{width:max(1440px,100vw);height:1024px;position:relative;overflow:hidden;scroll-snap-align:start;scroll-snap-stop:always;scroll-margin-top:0px;flex:none}.stack{min-width:1440px}.about-track{display:flex;width:100vw;min-width:1440px;height:1024px;scroll-margin-top:-10px;scroll-snap-align:start;scroll-snap-stop:always;overflow-x:auto;overflow-y:hidden;touch-action:pan-x;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-snap-stop:always;scroll-behavior:smooth}.about-track>.page{width:max(1440px,100vw);flex:0 0 max(1440px,100vw);scroll-snap-align:start;scroll-snap-stop:always}.page>div:first-child{width:100%;height:100%}img{object-fit:cover}.nav-fallback{position:absolute;right:62px;top:430px;z-index:20;display:flex;flex-direction:column;align-items:flex-end;gap:5px;font:37px Anton,Impact,sans-serif}.nav-fallback a{color:white;text-decoration:none}.state-title{position:absolute;left:30px;top:100px;font:187px Anton,sans-serif}.work-tabs{position:absolute;z-index:30;right:90px;top:60px;display:flex;gap:20px}.work-tabs button{font:28px Anton,sans-serif;border:0;background:#252525;color:#fff;padding:10px 20px;cursor:pointer}.work-state{display:none;position:absolute;inset:0;width:100%;height:100%}.work-state.active{display:block}.contact img{object-fit:cover}@media(max-width:1440px){.page,.about-track{transform-origin:top left}}
+.page{width:max(1440px,100vw)!important}
+.page img[src*="frame111-T1.svg"]{width:calc(100% + 1451.5px)!important}
+.page img[src*="frame111-P1.svg"]{width:calc(100% + 1451.5px)!important}
+.page img[src*="cano-lines-"]{width:4791.9619px!important}
+.page img[src*="kanoxy-lines.svg"]{width:calc(100% + 3351.96px)!important}
+.page img[src*="cameo-lines-"]{width:calc(100% + 3351.96px)!important}
+.page img[src*="works-lines.svg"]{width:calc(100% + 2092.76px)!important}
+.page img[src*="works-lines.svg"]{width:3532.76px!important}
+
+.works-track{display:flex;width:100%;height:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scroll-snap-stop:always;scroll-behavior:auto;touch-action:pan-x;overscroll-behavior-x:contain;scrollbar-width:none}
+.works-track::-webkit-scrollbar{display:none}
+.works-slide{position:relative;flex:0 0 max(1440px,100vw);width:max(1440px,100vw);height:1024px;overflow:hidden;scroll-snap-align:start;scroll-snap-stop:always}
+#works{scroll-margin-top:-70px}
+.works-slide>div:first-child{width:100%;height:100%}
+
+.page{width:max(1440px,100vw)!important}
+.page img[src*="frame111-T1.svg"]{width:calc(100% + 1451.5px)!important}
+.page img[src*="frame111-P1.svg"]{width:calc(100% + 1451.5px)!important}
+.page img[src*="cano-lines-"]{width:4791.9619px!important}
+.page img[src*="kanoxy-lines.svg"]{width:calc(100% + 3351.96px)!important}
+.page img[src*="cameo-lines-"]{width:calc(100% + 3351.96px)!important}
+.page img[src*="works-lines.svg"]{width:calc(100% + 2092.76px)!important}
+.page img[src*="works-lines.svg"]{width:3532.76px!important}
+
+.line-nav>div{opacity:0;transition:opacity 160ms ease}.line-nav>div.line-hover-active{opacity:1}
+body:not(.page-stationary) .line-nav>div{opacity:0!important;pointer-events:none!important;transition:none}
+.line-nav>div:not(.line-hover-active),.line-hover-extra:not(.line-hover-active){pointer-events:none}
+.line-hover-extra{opacity:0;transition:opacity 160ms ease}body:not(.page-stationary) .line-hover-extra{opacity:0!important;pointer-events:none!important;transition:none}.line-hover-extra.line-hover-active{opacity:1;pointer-events:auto}
+.contact-home-arrow{opacity:0;pointer-events:none;transition:opacity 160ms ease}
+body.contact-page-stationary .contact-home-arrow{opacity:1;pointer-events:auto}
+.about-gray-guide,.about-gray-arrow{opacity:0;transition:opacity 160ms ease;pointer-events:none}body.page-stationary .about-gray-guide,body.page-stationary .about-gray-arrow{opacity:1}</style><style data-dance-image-hover>
+#works .dance-image-pair{position:absolute;overflow:hidden;pointer-events:none}
+#works[data-works-state="dance"] .dance-image-pair{pointer-events:auto}
+#works .dance-image-pair img{position:absolute;inset:0;display:block;pointer-events:none}
+#works .dance-image-pair .dance-base-image{filter:grayscale(1)}
+#works .dance-image-pair .dance-hover-image{z-index:2;opacity:0;filter:saturate(1.35);transition:opacity 220ms ease}
+#works[data-works-state="dance"] .dance-image-pair:hover .dance-hover-image{opacity:1}
+</style><style data-social-link-style>.contact-copy-scroll a{color:inherit;text-decoration:none;cursor:pointer}.contact-copy-scroll a:hover{text-decoration:underline;text-underline-offset:2px}</style><style data-memory-game>
+.memory-card{position:absolute;padding:0;border:0;appearance:none;background:transparent;border-radius:19.649px;overflow:hidden;perspective:900px;cursor:pointer;touch-action:manipulation}
+.game1-cards>.memory-card{position:relative;width:100%;height:100%}
+.memory-card-inner{position:absolute;inset:0;display:block;transform-style:preserve-3d;transition:transform 420ms cubic-bezier(.2,.75,.2,1)}
+.memory-card-back,.memory-card-front{position:absolute;inset:0;display:grid;place-items:center;border-radius:inherit;backface-visibility:hidden}
+.memory-card-back{background:#252525}
+.memory-card-back .memory-card-diamond{width:48.8px;height:48.8px;border:4.912px solid #e5e5e5;border-radius:9.824px;transform:rotate(45deg)}
+.memory-card-front{transform:rotateY(180deg);background:#fff}
+.memory-card-front img{display:block;width:100%;height:100%;object-fit:fill}
+.memory-card.is-flipped .memory-card-inner,.memory-card.is-matched .memory-card-inner{transform:rotateY(180deg)}
+.memory-card:focus-visible{outline:3px solid #bfbfbf;outline-offset:3px}
+#works .groupGAME .memory-card{pointer-events:none}
+#works[data-works-state="game"] .groupGAME .memory-card{pointer-events:auto}
+.game2-retry{cursor:pointer!important;pointer-events:auto!important}
+</style></head><body><main class="stack">
+<section class="page home" id="home" ><div style="width: 100%; height: 100%; position: relative; background: white; overflow: hidden">
+    <img src="for coding/frame111-T1.svg" alt="" style="width:2891.5px;height:248px;left:-1054px;top:448px;position:absolute;object-fit:fill;pointer-events:none" />
+    <img src="for coding/frame111-P1.svg" alt="" style="width:2891.5px;height:128px;left:-1054px;top:448px;position:absolute;object-fit:fill;pointer-events:none" />
+    <div style="left: 180px; top: 124.84px; position: absolute; color: #252525; font-size: 329.412px; font-family: Anton; font-weight: 400; word-wrap: break-word">Cano</div>
+    <div style="width: 508.517px; left: 847px; top: 379.8px; position: absolute; color: black; font-size: 16.882px; font-family: Montserrat; font-weight: 300; word-wrap: break-word">-I'm training to become a dancer, <br/>  while exploring design.</div>
+    <div style="width: 508.517px; left: 847px; top: 288px; position: absolute; color: black; font-size: 16.882px; font-family: Montserrat; font-weight: 300; word-wrap: break-word">-Here is a website for me and my partners, </div>
+    <div style="width: 449.48px; left: 853.33px; top: 294.47px; position: absolute; color: #E5E5E5; font-size: 53.272px; font-family: Anton; font-weight: 400; word-wrap: break-word">Kanoxy & Cameo.</div>
+    <div class="line-nav" data-line-step="40" style="width: 275.45px; height: 176px; left: 1102px; top: 436px; position: absolute">
+        <div style="left: 153.90px; top: 119.95px; position: absolute; text-align: right; color: white; font-size: 37.37px; font-family: Anton; font-weight: 400; word-wrap: break-word">CONTACT </div>
+        <div style="left: 176.81px; top: 80.16px; position: absolute; text-align: right; color: white; font-size: 37.37px; font-family: Anton; font-weight: 400; word-wrap: break-word">WORKS</div>
+        <div style="left: 143.05px; top: 39.78px; position: absolute; text-align: right; color: white; font-size: 37.37px; font-family: Anton; font-weight: 400; word-wrap: break-word">ABOUT US</div>
+        <div style="left: 193.68px; top: 0px; position: absolute; text-align: right; color: white; font-size: 37.37px; font-family: Anton; font-weight: 400; word-wrap: break-word">HOME</div>
+    </div>
+</div></section>
+<section class="page about-cano" id="about-cano" ><div style="width: 100%; height: 100%; position: relative; background: white; overflow: hidden">
+    <div class="about-copy-scroll" tabindex="0" aria-label="Cano introduction" style="left:830px;top:271px;width:509px;height:112px;position:absolute">
+        <div style="width:509px;left:0;top:0;position:absolute;color:black;font-size:16px;font-family:Montserrat;font-weight:300;word-wrap:break-word">Kanoxy and Cameo represent my different identities.<br/>Their presence can assist me in presenting some of my works.</div>
+        <div style="width:481.95px;left:0;top:55px;position:absolute;color:black;font-size:16px;font-family:Montserrat;font-weight:300;line-height:25px;word-wrap:break-word">-2025.09.14 Started to learn dancing in G-STEPS in Beijing. <br/>-2026.04.10 Joined to ZAHANOVA in Beijing. <br/>-2026.06.14 Joined to TeaMerge in Beijing. </div>
+    </div>
+    <div style="width: 1440px; height: 272px; left: 0px; top: 368px; position: absolute; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 10%, white 100%)"></div>
+    <img src="for coding/cano-lines-base.svg" alt="" style="width:4791.96px;height:411px;left:-2047.15px;top:421px;position:absolute;object-fit:fill;pointer-events:none" />
+    <img class="cano-pale-line" data-layer="P4" data-figma-visible="false" src="for%20coding/cano-lines-P4.svg" alt="" style="width:4791.9619px;height:212.129px;left:-2047.1482px;top:619.871px;position:absolute;object-fit:fill;opacity:0;pointer-events:none" />
+    <img class="cano-pale-line" data-layer="P3" data-figma-visible="false" src="for%20coding/cano-lines-P3.svg" alt="" style="width:4791.9619px;height:212.129px;left:-2047.1482px;top:553.5807px;position:absolute;object-fit:fill;opacity:0;pointer-events:none" />
+    <img class="cano-pale-line" data-layer="P2" data-figma-visible="true" src="for%20coding/cano-lines-P2.svg" alt="" style="width:4791.9619px;height:212.129px;left:-2047.1482px;top:487.2903px;position:absolute;object-fit:fill;opacity:1;pointer-events:none" />
+    <img class="cano-pale-line" data-layer="P1" data-figma-visible="false" src="for%20coding/cano-lines-P1.svg" alt="" style="width:4791.9619px;height:212.129px;left:-2047.1482px;top:421px;position:absolute;object-fit:fill;opacity:0;pointer-events:none" />
+    <div style="left: 117px; top: 106px; position: absolute; color: #252525; font-size: 354.99px; font-family: Anton; font-weight: 400; word-wrap: break-word">Cano</div>
+    <div class="line-nav" data-line-step="66.5" style="width: 457px; height: 292px; left: 922px; top: 401px; position: absolute">
+        <div style="left: 257px; top: 199px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">CONTACT </div>
+        <div style="left: 295px; top: 133px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">WORKS</div>
+        <div style="left: 239px; top: 66px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">ABOUT US</div>
+        <div style="left: 323px; top: 0px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">HOME</div>
+    </div>
+    <div class="about-gray-guide" style="width: 489px; left: 859px; top: 731px; position: absolute; text-align: right; color: #E5E5E5; font-size: 58.46px; font-family: Anton; font-weight: 400; word-wrap: break-word">Kanoxy & Cameo</div>
+    <div class="about-gray-arrow" style="left: 1351px; top: 711px; position: absolute; color: #E5E5E5; font-size: 84.357px; font-family: Anton; font-weight: 400; line-height: normal">&gt;</div>
+</div></section>
+<section class="page about-kanoxy" id="about-kanoxy" ><div style="width: 100%; height: 100%; position: relative; background: white; overflow: hidden">
+    <div class="about-copy-scroll" tabindex="0" aria-label="Kanoxy introduction" style="left:928px;top:272px;width:422px;height:130px;position:absolute">
+        <div style="width:422px;left:0;top:0;position:absolute;color:black;font-size:16px;font-family:Montserrat;font-weight:300;word-wrap:break-word">#furry dancer<br/><br/>-2024, I created my social media account alongside Cano. <br/>I share popular choreography and dance culture in these accounts. <br/><br/>-2025, I joined an experimental dance troupe. <br/>We’ve cooperated for one year, and performed on stage 4 times.<br/><br/>-2026, I built ‘CUBiST’, a furry dance crew.<br/>We’re trying to do something new and better together. </div>
+    </div>
+    <div style="width: 1440px; height: 272px; left: 0px; top: 372px; position: absolute; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 10%, white 100%)"></div>
+    <img src="for coding/kanoxy-lines-base.svg" alt="" style="width:4791.96px;height:411px;left:-2300px;top:421px;position:absolute;object-fit:fill;pointer-events:none" />
+    <img src="for coding/kanoxy-lines-P2.svg" alt="" style="width:4791.96px;height:411px;left:-2300px;top:421px;position:absolute;object-fit:fill;pointer-events:none" />
+    <div style="left: 118px; top: 100px; position: absolute; color: #252525; font-size: 268.52px; font-family: Anton; font-weight: 400; word-wrap: break-word">Kanoxy</div>
+    <div class="about-gray-guide" style="width: 493.26px; left: 1189px; top: 731px; position: absolute; color: #E5E5E5; font-size: 58.46px; font-family: Anton; font-weight: 400; word-wrap: break-word">Cameo</div>
+    <div class="about-gray-arrow" style="left: 1351px; top: 711px; position: absolute; color: #E5E5E5; font-size: 84.357px; font-family: Anton; font-weight: 400; line-height: normal">&gt;</div>
+    <div class="about-gray-guide" style="width: 493.26px; left: 287px; top: 731px; position: absolute; color: #E5E5E5; font-size: 58.46px; font-family: Anton; font-weight: 400; word-wrap: break-word">Cano</div>
+    <div class="about-gray-arrow" style="left: 254px; top: 711px; position: absolute; color: #E5E5E5; font-size: 84.357px; font-family: Anton; font-weight: 400; line-height: normal">&lt;</div>
+    <div class="line-nav" data-line-step="66.5" style="width: 457px; height: 292px; left: 922px; top: 401px; position: absolute">
+        <div style="left: 257px; top: 199px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">CONTACT </div>
+        <div style="left: 295px; top: 133px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">WORKS</div>
+        <div style="left: 239px; top: 66px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">ABOUT US</div>
+        <div style="left: 323px; top: 0px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">HOME</div>
+    </div>
+</div></section>
+<section class="page about-cameo" id="about-cameo"><div style="width: 100%; height: 100%; position: relative; background: white; overflow: hidden">
+    <div class="about-copy-scroll" tabindex="0" aria-label="Cameo introduction" style="left:896px;top:272px;width:422px;height:112px;position:absolute">
+        <div style="width:422px;left:0;top:0;position:absolute;color:black;font-size:16px;font-family:Montserrat;font-weight:300;word-wrap:break-word">#furry dancer #mute<br/><br/>I do something lyrical and express emotion through movement with Cano. <br/>We grew up together under the same roof.<br/>My account will coming soon.</div>
+    </div>
+    <div class="about-gray-guide" style="width: 493.26px; left: 91px; top: 731px; position: absolute; color: #E5E5E5; font-size: 58.46px; font-family: Anton; font-weight: 400; word-wrap: break-word">Kanoxy & Cano</div>
+    <div class="about-gray-arrow" style="left: 63px; top: 710px; position: absolute; color: #E5E5E5; font-size: 84.357px; font-family: Anton; font-weight: 400; line-height: normal">&lt;</div>
+    <img src="for coding/cameo-lines-base.svg" alt="" style="width:4791.96px;height:411px;left:-2550px;top:421px;position:absolute;object-fit:fill;pointer-events:none" />
+    <img src="for coding/cameo-lines-overlay.svg" alt="" style="width:4791.96px;height:212.13px;left:-2550px;top:487.29px;position:absolute;object-fit:fill;pointer-events:none" />
+    <div style="left: 120px; top: 100px; position: absolute; color: #252525; font-size: 268.52px; font-family: Anton; font-weight: 400; word-wrap: break-word">Cameo</div>
+    <div class="line-nav" data-line-step="66.5" style="width: 457px; height: 292px; left: 922px; top: 401px; position: absolute">
+        <div style="left: 257px; top: 199px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">CONTACT </div>
+        <div style="left: 295px; top: 133px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">WORKS</div>
+        <div style="left: 239px; top: 66px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">ABOUT US</div>
+        <div style="left: 323px; top: 0px; position: absolute; text-align: right; color: white; font-size: 62px; font-family: Anton; font-weight: 400; word-wrap: break-word">HOME</div>
+    </div>
+</div></section>
+<section class="page contact" id="contact" ><div style="width: 100%; height: 100%; position: relative; background: white; overflow: hidden">
+    <img style="width: 352px; height: 352px; left: 1094px; top: 672px; position: absolute" src="for%20coding/contact-rat.jpg" />
+    <div style="width: 288px; left: 896px; top: 805px; position: absolute; text-align: right; color: #252525; font-size: 13.73px; font-family: Montserrat; font-weight: 300; word-wrap: break-word">If you want an animal doodle like this, <br/>you can send a picture about its to Cano on QQ chat session. <br/>If time allows, one will be drawn for you. <br/><br/>QQ: 3062924147</div>
+    <img src="for coding/account-lines-base.svg" alt="" style="width:3532.76px;height:303px;left:-650px;top:153px;position:absolute;object-fit:fill;pointer-events:none" /><img src="for coding/account-lines-P4.svg" alt="" style="width:3532.76px;height:303px;left:-650px;top:153px;position:absolute;object-fit:fill;pointer-events:none" />
+    
+    <div class="contact-copy-scroll" tabindex="0" aria-label="Contact social accounts" style="left:89px;top:579px;width:520px;height:445px;position:absolute">
+        <div style="width:206.93px;left:16px;top:0px;position:absolute;color:#e5e5e5;font-size:96.12px;font-family:Anton;font-weight:400;word-wrap:break-word">Cano</div>
+        <div style="width:413.57px;left:73px;top:128px;position:absolute;color:#252525;font-size:21.36px;font-family:Montserrat;font-weight:300;word-wrap:break-word"><a href="https://b23.tv/eZQhCm7" target="_blank" rel="noopener noreferrer">Bilibili: @CAN灿是耗子O</a><br/><a href="https://v.douyin.com/QdRYqtRs4m4/" target="_blank" rel="noopener noreferrer">Douyin: @CAN灿是耗子O</a></div>
+        <div style="width:332.42px;left:16px;top:160px;position:absolute;color:#e5e5e5;font-size:96.12px;font-family:Anton;font-weight:400;word-wrap:break-word">Kanoxy</div>
+        <div style="width:413.57px;left:73px;top:288px;position:absolute;color:#252525;font-size:21.36px;font-family:Montserrat;font-weight:300;word-wrap:break-word"><a href="https://b23.tv/UVxP3J4" target="_blank" rel="noopener noreferrer">Bilibili: @灲Kano_xy</a><br/><a href="https://v.douyin.com/GcaEeQ9HVTE/" target="_blank" rel="noopener noreferrer">Douyin: @灲Kano_xy</a></div>
+        <div style="width:332.42px;left:16px;top:335px;position:absolute;color:#e5e5e5;font-size:96.12px;font-family:Anton;font-weight:400;word-wrap:break-word">CUBiST</div>
+        <div style="width:413.57px;left:73px;top:464px;position:absolute;color:#252525;font-size:21.36px;font-family:Montserrat;font-weight:300;word-wrap:break-word"><a href="https://b23.tv/Kb5AUQC" target="_blank" rel="noopener noreferrer">Bilibili: @CUBiST_Official</a><br/><a href="https://v.douyin.com/dc3dpffN-q4/" target="_blank" rel="noopener noreferrer">Douyin: @CUBiST_Official</a></div>
+    </div>
+    <div style="left: 829px; top: 178px; position: absolute; transform: translateX(-100%); text-align: right; color: #252525; font-size: 231.43px; font-family: Anton; font-weight: 400; word-wrap: break-word">CONTACT</div>
+    <div style="width: 545.53px; left: 105px; top: 461px; position: absolute; color: #252525; font-size: 28.01px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">For cooperation, invitation, or joining, <br/>please DM the corresponding social media account!!!!</div>
+    <div style="position:absolute;left:669px;top:89px;width:524px;height:112px;display:flex;align-items:center;justify-content:center"><div class="contact-home-arrow" style="transform:rotate(-90deg);cursor:pointer;color:#E5E5E5;font-size:348.06px;font-family:Anton;font-weight:400;line-height:normal">&gt;</div></div>
+    <div style="width: 1440px; height: 272px; left: 0px; top: 896px; position: absolute; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 10%, white 100%)"></div>
+</div></section>
+<section class="page works-page" id="works" data-snap-offset="-70" data-works-state="works"><div class="works-track">
+<div class="works-slide works-overview-slide"><div class="work-overview-frame" style="width:100%;height:100%;position:relative;background:white;overflow:hidden">
+<img class="works-main-lines" src="for coding/works-lines-base.svg" alt="" style="width:3532.76px;height:303px;left:-881px;top:460px;position:absolute;object-fit:fill;pointer-events:none" />
+    <img class="works-main-pale" src="for coding/works-P3.svg" alt="" style="width:3532.76px;height:156.3871px;left:-881px;top:557.7419px;position:absolute;object-fit:fill;pointer-events:none" /><img class="works-sub-pale" src="for coding/works-P3.svg" alt="" style="width:3532.76px;height:156.3871px;left:-881px;top:557.7419px;position:absolute;object-fit:fill;opacity:0;pointer-events:none" />
+<div class="line-nav pages2-guide" data-line-step="49.05" style="position:absolute;left:639px;top:562px;width:161.264px;height:217px;color:white;text-align:right;font:46.08px/normal Anton,Impact,sans-serif">
+<div style="position:absolute;inset:0 19.88% 68.2% 18.73%">HOME</div><div style="position:absolute;inset:22.6% 0 45.6% 0">ABOUT US</div><div style="position:absolute;inset:45.55% 13.15% 22.65% 11.82%">WORKS</div><div style="position:absolute;inset:68.15% 4.7% 0.05% 3.53%">CONTACT</div></div>
+<div class="dance-side-fade" aria-hidden="true" style="position:absolute;left:946px;top:-3px;width:1856.65px;height:946px;transform:rotate(90deg);transform-origin:top left;background:linear-gradient(180deg,rgba(255,255,255,0) 0%,white 10%,white 100%);opacity:0;pointer-events:none"></div>
+<div class="game-side-fade" aria-hidden="true" style="position:absolute;left:781px;top:0;width:745px;height:1024px;background:linear-gradient(90deg,rgba(255,255,255,0) 0%,white 9.615%,white 100%);opacity:0;pointer-events:none"></div>
+<div class="works-return-arrow dance-return-arrow" data-return-from="dance" role="button" tabindex="-1" aria-label="Return to WORKS" style="position:absolute;left:1174px;top:635px;color:white;font:73.721px/normal Anton,Impact,sans-serif;opacity:0;pointer-events:none">&gt;</div>
+<div class="works-return-arrow game-return-arrow" data-return-from="game" role="button" tabindex="-1" aria-label="Return to WORKS" style="position:absolute;left:242.9px;top:635px;width:24.1px;height:111px;display:flex;align-items:center;justify-content:center;color:white;font:73.721px/normal Anton,Impact,sans-serif;opacity:0;pointer-events:none"><span style="transform:scaleX(-1)">&gt;</span></div>
+<div class="works-overview-group groupDANCE">
+<div class="dance1-gallery" style="position:absolute;left:32.58px;top:358.01px;width:403.211px;height:862.494px;overflow:hidden">
+<div class="dance1-gallery-content" style="position:relative;width:403.211px;height:862.494px">
+<div class="dance1-gallery-art" style="position:absolute;left:0;top:0;width:403.211px;height:862.494px;transform-origin:top left">
+<a class="dance-image-pair" data-dance-image="BBHMM-Kanoxy-001" style="position:absolute;left:0;top:0;width:403.13px;height:227.02px" href="https://v.douyin.com/MYc6Jm-PDCM/" target="_blank" rel="noopener noreferrer" aria-label="Open BBHMM-Kanoxy-001 video"><img class="dance-base-image" src="for%20coding/work-bbhmm.png" alt="BBHMM dance cover" style="width:100%;height:100%;object-fit:cover" /><img class="dance-hover-image" src="for%20coding/work-bbhmm.png" alt="" aria-hidden="true" style="width:100%;height:100%;object-fit:cover" /></a>
+<a class="dance-image-pair" data-dance-image="IDOL-CUBiST-002" style="position:absolute;left:117.13px;top:234.53px;width:286.08px;height:192.16px" href="https://v.douyin.com/fWVx8MywYYA/" target="_blank" rel="noopener noreferrer" aria-label="Open IDOL-CUBiST-002 video"><img class="dance-base-image" src="for%20coding/work-idol.jpg" alt="" style="width:100%;height:100%;object-fit:cover;object-position:bottom" /><img class="dance-hover-image" src="for%20coding/work-idol.jpg" alt="" aria-hidden="true" style="width:100%;height:100%;object-fit:cover;object-position:bottom" /></a>
+<a class="dance-image-pair" data-dance-image="HIDE&SEEK-CUBiST-001" style="position:absolute;left:0;top:668.92px;width:286.25px;height:193.5px" href="https://v.douyin.com/uyLaOc3ADog/" target="_blank" rel="noopener noreferrer" aria-label="Open HIDE&SEEK-CUBiST-001 video"><img class="dance-base-image" src="for%20coding/work-hide-seek.jpg" alt="" style="width:100%;height:100%;object-fit:cover;object-position:bottom" /><img class="dance-hover-image" src="for%20coding/work-hide-seek.jpg" alt="" aria-hidden="true" style="width:100%;height:100%;object-fit:cover;object-position:bottom" /></a>
+<div class="dance-image-pair" data-dance-image="UNDEAD-Kanoxy-003" style="position:absolute;left:0;top:234.53px;width:108.18px;height:192.32px"><img class="dance-base-image" src="for%20coding/work-undead.jpg" alt="" style="width:100%;height:100%;object-fit:cover" /><img class="dance-hover-image" src="for%20coding/work-undead.jpg" alt="" aria-hidden="true" style="width:100%;height:100%;object-fit:cover" /></div>
+<a class="dance-image-pair" data-dance-image="NEON-Kanoxy-002" style="position:absolute;left:294.2px;top:668.92px;width:109.01px;height:193.79px" href="https://v.douyin.com/pI3Ct56bUIY/" target="_blank" rel="noopener noreferrer" aria-label="Open NEON-Kanoxy-002 video"><img class="dance-base-image" src="for%20coding/work-neon.jpg" alt="" style="width:100%;height:100%;object-fit:cover" /><img class="dance-hover-image" src="for%20coding/work-neon.jpg" alt="" aria-hidden="true" style="width:100%;height:100%;object-fit:cover" /></a>
+<a class="dance-image-pair" data-dance-image="HIBIKASE-Kanoxy-001" style="position:absolute;left:0;top:434.39px;width:403.21px;height:226.8px" href="https://v.douyin.com/QR2-_D49m2k/" target="_blank" rel="noopener noreferrer" aria-label="Open HIBIKASE-Kanoxy-001 video"><img class="dance-base-image" src="for%20coding/work-hibikase.jpg" alt="" style="width:100%;height:100%;object-fit:cover" /><img class="dance-hover-image" src="for%20coding/work-hibikase.jpg" alt="" aria-hidden="true" style="width:100%;height:100%;object-fit:cover" /></a>
+</div>
+</div></div>
+<div class="dance1-highlights" style="position:absolute;left:32.58px;top:302.8px;width:553px;height:85px;display:block;white-space:nowrap;opacity:0;color:#E5E5E5;font:56.57px/normal Anton,Impact,sans-serif">All Highlights</div>
+<div class="dance1-title" style="position:absolute;left:28px;top:139px;color:#252525;text-decoration:none;font:172.555px/normal Anton,Impact,sans-serif;white-space:nowrap">DANCE</div>
+</div>
+<div class="works-overview-bottom-fade" style="position:absolute;left:-361px;top:800px;width:2160px;height:408px;background:linear-gradient(180deg,rgba(255,255,255,0) 0%,white 9.615%,white 100%);pointer-events:none"></div><div class="works-overview-group groupGAME">
+<div class="game1-cards" style="position:absolute;left:1007.59px;top:368.56px;display:grid;grid-template-columns:196.486px 196.486px;grid-template-rows:147.365px 147.365px 147.365px;gap:6.72px 7.864px"><button class="memory-card" type="button" aria-label="Card 1, face down"><span class="memory-card-inner"><span class="memory-card-back"><i class="memory-card-diamond"></i></span><span class="memory-card-front"><img alt="" /></span></span></button><button class="memory-card" type="button" aria-label="Card 2, face down"><span class="memory-card-inner"><span class="memory-card-back"><i class="memory-card-diamond"></i></span><span class="memory-card-front"><img alt="" /></span></span></button><button class="memory-card" type="button" aria-label="Card 3, face down"><span class="memory-card-inner"><span class="memory-card-back"><i class="memory-card-diamond"></i></span><span class="memory-card-front"><img alt="" /></span></span></button><button class="memory-card" type="button" aria-label="Card 4, face down"><span class="memory-card-inner"><span class="memory-card-back"><i class="memory-card-diamond"></i></span><span class="memory-card-front"><img alt="" /></span></span></button><button class="memory-card" type="button" aria-label="Card 5, face down"><span class="memory-card-inner"><span class="memory-card-back"><i class="memory-card-diamond"></i></span><span class="memory-card-front"><img alt="" /></span></span></button><button class="memory-card" type="button" aria-label="Card 6, face down"><span class="memory-card-inner"><span class="memory-card-back"><i class="memory-card-diamond"></i></span><span class="memory-card-front"><img alt="" /></span></span></button></div><img class="game2-retry" src="for coding/game-retry.svg" alt="" style="width:48.751px;height:46.06px;left:1009px;top:311px;position:absolute;opacity:0;pointer-events:none" /><div class="game2-score" style="left:1071.26px;top:311px;width:49px;position:absolute;text-align:right;white-space:nowrap;color:#E5E5E5;font:34.646px/normal Anton,Impact,sans-serif;opacity:0">0/3</div><div class="game2-match" style="left:1134px;top:286px;width:212px;position:absolute;text-align:right;color:#E5E5E5;font:56.571px/normal Anton,Impact,sans-serif;opacity:0">Match Up</div><div class="game1-title" style="position:absolute;left:1003px;top:139px;color:#252525;font:186.45px/normal Anton,Impact,sans-serif">GAME</div></div></div></div></div></section></main><script>const about=document.createElement("div");about.className="about-track";about.dataset.snapOffset="-10";about.tabIndex=0;["about-cano","about-kanoxy","about-cameo"].forEach(id=>about.append(document.getElementById(id)));document.querySelector(".stack").insertBefore(about,document.getElementById("works"));document.querySelector(".stack").append(document.getElementById("contact"));const snapWheel=track=>{let locked=false,pending=0,reset;track.addEventListener('wheel',e=>{const d=e.deltaX||(e.shiftKey?e.deltaY:0);if(!d)return;e.preventDefault();if(locked)return;pending+=d;clearTimeout(reset);reset=setTimeout(()=>pending=0,180);if(Math.abs(pending)<150)return;const dir=Math.sign(pending);pending=0;const width=track.clientWidth,max=track.scrollWidth-width,current=Math.round(track.scrollLeft/width)*width,next=Math.max(0,Math.min(max,current+dir*width));if(next!==current){locked=true;track.scrollTo({left:next,behavior:'smooth'});setTimeout(()=>locked=false,1000)}},{passive:false})};const aboutTrack=document.querySelector('.about-track');if(aboutTrack){snapWheel(aboutTrack);aboutTrack.addEventListener('keydown',e=>{if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight')return;e.preventDefault();const w=aboutTrack.clientWidth,cur=Math.round(aboutTrack.scrollLeft/w)*w;aboutTrack.scrollTo({left:Math.max(0,Math.min(aboutTrack.scrollWidth-w,cur+(e.key==='ArrowRight'?w:-w))),behavior:'smooth'})})};const worksTrack=document.querySelector('.works-track');if(worksTrack){worksTrack.tabIndex=0;const centerWorks=()=>{const overview=worksTrack.querySelector('.works-overview-slide');if(!overview)return;worksTrack.style.scrollBehavior='auto';worksTrack.scrollLeft=overview.offsetLeft;requestAnimationFrame(()=>{worksTrack.scrollLeft=overview.offsetLeft;worksTrack.style.removeProperty('scroll-behavior')})};centerWorks();window.addEventListener('load',centerWorks,{once:true});snapWheel(worksTrack);worksTrack.addEventListener('keydown',e=>{if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight')return;e.preventDefault();const w=worksTrack.clientWidth,cur=Math.round(worksTrack.scrollLeft/w)*w;worksTrack.scrollTo({left:Math.max(0,Math.min(worksTrack.scrollWidth-w,cur+(e.key==='ArrowRight'?w:-w))),behavior:'smooth'})})}</script><script>(function(){const entries=Array.from(document.querySelectorAll('.line-nav')).map(function(nav){const frame=nav.closest('.works-slide,.page')||nav;return{nav:nav,frame:frame,step:Number(nav.dataset.lineStep||40),targets:Array.from(nav.children).filter(function(el){return el.textContent.trim()}).concat(Array.from(frame.querySelectorAll('.line-hover-extra')))}});let pointer=null,scrolling=true,timer;function clear(){entries.forEach(function(entry){entry.targets.forEach(function(el){el.classList.remove('line-hover-active')})})}function isSettled(frame){const r=frame.getBoundingClientRect();const section=frame.closest(".about-track, #works");const target=section?Number(section.dataset.snapOffset||0):0;return Math.abs(r.top-target)<8&&Math.abs(r.left)<8}function refresh(){const stationary=!scrolling&&entries.some(function(e){return isSettled(e.frame)});document.body.classList.toggle('page-stationary',stationary);if(!stationary||!pointer){clear();return}entries.forEach(function(entry){const r=entry.frame.getBoundingClientRect();const inside=pointer.x>=r.left&&pointer.x<r.right&&pointer.y>=r.top&&pointer.y<r.bottom&&isSettled(entry.frame);const y=pointer.y-r.top;entry.targets.forEach(function(el){const top=el.hasAttribute('data-line-hover-start')?Number(el.dataset.lineHoverStart):el.getBoundingClientRect().top-r.top;el.classList.toggle('line-hover-active',inside&&y>=top-0.5&&y<top+entry.step)})})}function markMoving(){scrolling=true;document.body.classList.remove('page-stationary');clear();clearTimeout(timer);timer=setTimeout(function(){scrolling=false;refresh()},180)}document.addEventListener('pointermove',function(event){pointer={x:event.clientX,y:event.clientY};refresh()});window.addEventListener('scroll',markMoving,{passive:true});document.querySelectorAll('.about-track,.works-track').forEach(function(track){track.addEventListener('scroll',markMoving,{passive:true})});window.addEventListener('wheel',function(event){if(document.querySelector('#works[data-works-state="dance"]'))return;markMoving()},{passive:true});entries.forEach(function(entry){entry.frame.addEventListener('pointerleave',function(){entry.targets.forEach(function(el){el.classList.remove('line-hover-active')})})});timer=setTimeout(function(){scrolling=false;refresh()},250)})();</script><script>(function(){const scrollers=Array.from(document.querySelectorAll('.stack > .page, .stack > .about-track'));let timer=0,correcting=false;function alignNextPage(){if(correcting)return;clearTimeout(timer);timer=setTimeout(function(){const limit=Math.min(220,window.innerHeight*0.26);const next=scrollers.map(function(el){return{el:el,top:el.getBoundingClientRect().top,target:Number(el.dataset.snapOffset||0)}}).filter(function(item){return item.top>1&&item.top<=limit}).sort(function(a,b){return a.top-b.top})[0];if(!next)return;correcting=true;window.scrollTo({top:window.scrollY+next.top-next.target,behavior:'smooth'});setTimeout(function(){correcting=false},500)},220)}window.addEventListener('scroll',alignNextPage,{passive:true});window.addEventListener('load',function(){setTimeout(alignNextPage,300)},{once:true})})();</script><style data-nav-click-routing>.line-nav>div,.line-hover-extra,.contact-home-arrow{cursor:pointer}.line-hover-extra.line-hover-active{pointer-events:auto!important}</style><script data-nav-click-routing>(function(){
+const isMain=!!document.querySelector('.stack');
+const ids={HOME:'home','ABOUT US':'about-cano',WORKS:'works',CONTACT:'contact'};
+function navigate(label){
+ let key=label;
+ if(key==='>'||key==='<')key='WORKS';
+ const id=ids[key];if(!id)return;
+ if(!isMain){window.location.href='1111.html#'+id;return;}
+ let target=document.getElementById(id);
+ if(key==='ABOUT US'){
+  target=document.querySelector('.about-track');
+  if(target)target.scrollTo({left:0,behavior:'smooth'});
+ }
+ if(key==='WORKS'){
+  const track=target&&target.querySelector('.works-track');
+  if(track){const overview=track.querySelector('.works-overview-slide');track.scrollTo({left:overview?overview.offsetLeft:track.clientWidth,behavior:'smooth'});}
+ }
+ if(!target)return;
+ const offset=Number(target.dataset.snapOffset||0);
+ window.scrollTo({top:window.scrollY+target.getBoundingClientRect().top-offset,behavior:'smooth'});
+}
+document.addEventListener('click',function(event){
+ const item=event.target.closest('.line-nav>div,.line-hover-extra,.contact-home-arrow');
+ if(!item)return;
+ if(item.matches('.line-nav>div,.line-hover-extra')&&(!document.body.classList.contains('page-stationary')||!item.classList.contains('line-hover-active')))return;
+ if(item.classList.contains('contact-home-arrow')&&!document.body.classList.contains('contact-page-stationary'))return;
+ const label=item.classList.contains('contact-home-arrow')?'HOME':item.textContent.trim().toUpperCase().replace(/\s+/g,' ');
+ if(!ids[label]&&label!=='>'&&label!=='<')return;
+ event.preventDefault();navigate(label);
+});
+document.querySelectorAll('.line-hover-extra').forEach(function(item){item.setAttribute('role','button');item.setAttribute('tabindex','0');item.setAttribute('aria-label','Open WORKS');item.addEventListener('click',function(event){if(!document.body.classList.contains('page-stationary')||!item.classList.contains('line-hover-active'))return;event.preventDefault();event.stopPropagation();navigate('WORKS')});item.addEventListener('keydown',function(event){if((event.key==='Enter'||event.key===' ')&&document.body.classList.contains('page-stationary')&&item.classList.contains('line-hover-active')){event.preventDefault();navigate('WORKS')}})});
+
+if(isMain&&location.hash){
+ const id=decodeURIComponent(location.hash.slice(1));
+ const label=Object.keys(ids).find(function(key){return ids[key]===id;});
+ if(label)window.addEventListener('load',function(){navigate(label)},{once:true});
+}
+})();</script><script data-reset-about-on-vertical-exit>(function(){
+const about=document.querySelector('.about-track');if(!about)return;
+let timer=0;
+function resetIfLeft(){
+ const target=Number(about.dataset.snapOffset||-10);
+ if(Math.abs(about.getBoundingClientRect().top-target)<10)return;
+ about.querySelectorAll('.about-copy-scroll').forEach(function(box){box.scrollTop=0});
+ const previous=about.style.scrollBehavior;
+ about.style.scrollBehavior='auto';
+ about.scrollLeft=0;
+ requestAnimationFrame(function(){about.style.scrollBehavior=previous});
+}
+window.addEventListener('scroll',function(){clearTimeout(timer);timer=setTimeout(resetIfLeft,320)},{passive:true});
+})();</script><style data-about-copy-scroll>.about-copy-scroll{overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;touch-action:pan-y;-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 calc(100% - 22px),transparent 100%);mask-image:linear-gradient(to bottom,#000 0%,#000 calc(100% - 22px),transparent 100%)}.about-copy-scroll::-webkit-scrollbar{display:none}.about-copy-scroll:focus{outline:none}</style><script data-reset-about-copy-on-horizontal-exit>(function(){const track=document.querySelector('.about-track');if(!track)return;let timer=0;track.addEventListener('scroll',function(){clearTimeout(timer);timer=setTimeout(function(){const active=Math.round(track.scrollLeft/(track.clientWidth||1440));Array.from(track.querySelectorAll('.about-copy-scroll')).forEach(function(box){const page=box.closest('.page');const index=Array.from(track.children).indexOf(page);if(index!==active)box.scrollTop=0})},220)},{passive:true})})();</script><style data-contact-copy-scroll>.contact-copy-scroll{overflow-y:auto;overscroll-behavior:contain;scrollbar-width:none;touch-action:pan-y;cursor:ns-resize;-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 calc(100% - 22px),transparent 100%);mask-image:linear-gradient(to bottom,#000 0%,#000 calc(100% - 22px),transparent 100%)}.contact-copy-scroll::-webkit-scrollbar{display:none}.contact-copy-scroll:focus{outline:none}</style>
+
+<style id="page-line-motion-styles">
+#magic-line-overlay{position:fixed;inset:0;z-index:1;overflow:hidden;pointer-events:none}
+#magic-line-overlay img{position:absolute;display:block;object-fit:fill;pointer-events:none;will-change:left,top,width,height,opacity}
+body.magic-lines-ready .page{z-index:auto}
+body.magic-lines-ready .page>div:first-child,body.magic-lines-ready .work-overview-frame{background:transparent!important}
+body.magic-lines-ready .page>div:first-child>*,body.magic-lines-ready .work-overview-frame>*{z-index:2}
+body.magic-lines-ready [style*="linear-gradient"]{z-index:0!important}
+body.magic-lines-ready .works-overview-bottom-fade{z-index:2!important}
+body.magic-lines-ready .work-overview-frame>img[src*="works-lines"]{z-index:1!important}
+body.magic-lines-ready .work-overview-frame>.pages2-guide{z-index:2!important}
+body.magic-lines-ready .work-overview-frame>.works-overview-group{position:absolute;inset:0;pointer-events:none}
+body.magic-lines-ready .work-overview-frame>.works-overview-group.groupDANCE{z-index:3!important}
+body.magic-lines-ready .work-overview-frame>.works-overview-bottom-fade{z-index:4!important}
+body.magic-lines-ready .work-overview-frame>.works-overview-group.groupGAME{z-index:5!important}
+body.magic-lines-ready.line-transitioning .magic-line-source{visibility:hidden!important}
+body.line-transitioning .line-nav>div,body.line-transitioning .line-hover-extra{opacity:0!important;pointer-events:none!important;transition:none!important}
+</style>
+<script data-contact-page-arrow-state>(function(){const page=document.querySelector('#contact'),body=document.body;if(!page)return;let moving=true,timer=0;function settled(){return Math.abs(page.getBoundingClientRect().top-Number(page.dataset.snapOffset||0))<8}function refresh(){body.classList.toggle('contact-page-stationary',!moving&&settled())}function markMoving(){moving=true;body.classList.remove('contact-page-stationary');clearTimeout(timer);timer=setTimeout(function(){moving=false;refresh()},180)}window.addEventListener('scroll',markMoving,{passive:true});window.addEventListener('resize',markMoving,{passive:true});timer=setTimeout(function(){moving=false;refresh()},250)})();</script>
+<script id="page-line-motion-script">(function(){
+const specs=[
+ {id:'home',section:'#home',root:'#home>div:first-child',base:'#home img[src*="frame111-T1.svg"]',pale:'#home img[src*="frame111-P1.svg"]'},
+ {id:'cano',section:'.about-track',root:'#about-cano>div:first-child',base:'#about-cano img[src*="cano-lines-base.svg"]',pale:'#about-cano .cano-pale-line[data-layer="P2"]'},
+ {id:'kanoxy',section:'.about-track',root:'#about-kanoxy>div:first-child',base:'#about-kanoxy img[src*="kanoxy-lines-base.svg"]',pale:'#about-kanoxy img[src*="kanoxy-lines-P2.svg"]'},
+ {id:'cameo',section:'.about-track',root:'#about-cameo>div:first-child',base:'#about-cameo img[src*="cameo-lines-base.svg"]',pale:'#about-cameo img[src*="cameo-lines-overlay.svg"]'},
+ {id:'works',section:'#works',root:'#works .work-overview-frame',base:'#works .work-overview-frame>img[src*="works-lines-base.svg"]',pale:'#works .work-overview-frame>img[src*="works-P3.svg"]'},
+ {id:'contact',section:'#contact',root:'#contact>div:first-child',base:'#contact img[src*="account-lines-base.svg"]',pale:'#contact img[src*="account-lines-P4.svg"]'}
+];
+const routes={};specs.forEach(function(spec){const section=document.querySelector(spec.section),root=document.querySelector(spec.root),base=document.querySelector(spec.base),pale=document.querySelector(spec.pale);if(!section||!root||!base)return;base.classList.add('magic-line-source');if(pale)pale.classList.add('magic-line-source');routes[spec.id]={id:spec.id,section:section,root:root,base:base,pale:pale}});
+if(Object.keys(routes).length!==specs.length)return;
+const overlay=document.createElement('div');overlay.id='magic-line-overlay';overlay.setAttribute('aria-hidden','true');
+function layer(){const image=document.createElement('img');image.alt='';overlay.appendChild(image);return image}
+const draw={baseA:layer(),baseB:layer(),paleA:layer(),paleB:layer()};document.body.insertBefore(overlay,document.body.firstChild);
+const sections=['#home','.about-track','#works','#contact'].map(function(selector){return document.querySelector(selector)});
+function box(route,kind){const element=kind==='pale'?route.pale:route.base;if(!element)return null;const rect=element.getBoundingClientRect(),style=getComputedStyle(element),opacity=parseFloat(style.opacity);return{src:element.getAttribute('src'),left:rect.left,top:rect.top,width:rect.width,height:rect.height,opacity:kind==='pale'&&Number.isFinite(opacity)?opacity:1}}
+function hide(){Object.keys(draw).forEach(function(key){draw[key].style.opacity='0'})}
+function paint(image,geometry,opacity,src){if(!geometry||opacity<=.001){image.style.opacity='0';return}if(image.getAttribute('src')!==src)image.setAttribute('src',src);image.style.left=geometry.left+'px';image.style.top=geometry.top+'px';image.style.width=geometry.width+'px';image.style.height=geometry.height+'px';image.style.opacity=String(Math.max(0,Math.min(1,opacity)))}
+function attach(pale,base,motion){if(!pale||!base||!motion||!base.width||!base.height)return null;return{src:pale.src,left:motion.left+(pale.left-base.left)/base.width*motion.width,top:motion.top+(pale.top-base.top)/base.height*motion.height,width:pale.width/base.width*motion.width,height:pale.height/base.height*motion.height,opacity:pale.opacity}}
+function blend(a,b,t){const baseA=box(a,'base'),baseB=box(b,'base');if(!baseA||!baseB){hide();document.body.classList.remove('line-transitioning');return}const moving=a!==b&&t>.001&&t<.999;document.body.classList.toggle('line-transitioning',moving);if(!moving){hide();return}const motion={left:baseA.left+(baseB.left-baseA.left)*t,top:baseA.top+(baseB.top-baseA.top)*t,width:baseA.width+(baseB.width-baseA.width)*t,height:baseA.height+(baseB.height-baseA.height)*t};paint(draw.baseA,motion,1,baseA.src);paint(draw.baseB,motion,1,baseB.src);const paleA=attach(box(a,'pale'),baseA,motion),paleB=attach(box(b,'pale'),baseB,motion);paint(draw.paleA,paleA,(paleA?paleA.opacity:0)*(1-t),paleA&&paleA.src);paint(draw.paleB,paleB,(paleB?paleB.opacity:0)*t,paleB&&paleB.src)}
+function aboutPair(){const track=document.querySelector('.about-track'),step=track.clientWidth||1440,raw=Math.max(0,Math.min(2,track.scrollLeft/step)),index=Math.min(1,Math.floor(raw));return{a:routes[['cano','kanoxy','cameo'][index]],b:routes[['cano','kanoxy','cameo'][index+1]],t:raw-index}}
+function currentSectionRoute(index){if(index===0)return routes.home;if(index===1){const pair=aboutPair();return pair.t>.5?pair.b:pair.a}if(index===2)return routes.works;return routes.contact}
+function verticalState(){const y=window.scrollY,anchors=sections.map(function(section){return section.getBoundingClientRect().top+window.scrollY-Number(section.dataset.snapOffset||0)});let index=0;while(index<anchors.length-1&&y>anchors[index+1])index++;if(index>=anchors.length-1)return{a:routes.contact,b:routes.contact,t:0,index:index};const t=Math.max(0,Math.min(1,(y-anchors[index])/(anchors[index+1]-anchors[index]||1)));return{a:currentSectionRoute(index),b:currentSectionRoute(index+1),t:t,index:index}}
+function update(){const state=verticalState(),about=document.querySelector('.about-track'),bounds=about.getBoundingClientRect(),aboutTarget=Number(about.dataset.snapOffset||0),aboutIsDocked=Math.abs(bounds.top-aboutTarget)<12,pair=aboutPair();if(aboutIsDocked&&pair.a&&pair.b&&pair.t>.001&&pair.t<.999){blend(pair.a,pair.b,pair.t);return}blend(state.a,state.b,state.t)}
+let pending=false;function schedule(){if(pending)return;pending=true;requestAnimationFrame(function(){pending=false;update()})}window.addEventListener('scroll',schedule,{passive:true});document.querySelectorAll('.about-track,.works-track').forEach(function(track){track.addEventListener('scroll',schedule,{passive:true})});window.addEventListener('resize',schedule,{passive:true});document.body.classList.add('magic-lines-ready');update();
+})();</script>
+
+<style data-works-substates>
+#works .works-main-lines,#works .works-main-pale,#works .works-sub-pale{transition:left 700ms cubic-bezier(.22,.7,.2,1),opacity 280ms ease;}
+#works .works-main-lines{z-index:1!important}
+#works .works-main-pale,#works .works-sub-pale{z-index:1!important}
+#works .works-sub-pale{opacity:0;}
+#works .works-overview-group{transition:transform 700ms cubic-bezier(.22,.7,.2,1);}
+#works .groupDANCE{transform:translateX(0)}
+#works .groupGAME{transform:translateX(0)}
+#works .dance1-title{transition:left 700ms cubic-bezier(.22,.7,.2,1),top 700ms cubic-bezier(.22,.7,.2,1),font-size 700ms cubic-bezier(.22,.7,.2,1)}
+#works .dance1-gallery{transition:left 700ms cubic-bezier(.22,.7,.2,1),top 700ms cubic-bezier(.22,.7,.2,1),width 700ms cubic-bezier(.22,.7,.2,1),height 700ms cubic-bezier(.22,.7,.2,1)}
+#works .dance1-gallery-content{transition:width 700ms cubic-bezier(.22,.7,.2,1),height 700ms cubic-bezier(.22,.7,.2,1)}
+#works .dance1-gallery-art{transform:scale(1);transition:transform 700ms cubic-bezier(.22,.7,.2,1)}
+#works .dance1-gallery{scrollbar-width:none}
+#works .dance1-gallery::-webkit-scrollbar{display:none}
+#works .dance1-highlights{transition:left 700ms cubic-bezier(.22,.7,.2,1),top 700ms cubic-bezier(.22,.7,.2,1),opacity 250ms ease}
+#works .game1-title{transition:left 700ms cubic-bezier(.22,.7,.2,1),top 700ms cubic-bezier(.22,.7,.2,1),font-size 700ms cubic-bezier(.22,.7,.2,1)}
+#works .game1-cards{transform:translate(0,0) scale(1);transform-origin:top left;transition:transform 700ms cubic-bezier(.22,.7,.2,1)}
+#works .works-overview-bottom-fade{transition:left 700ms cubic-bezier(.22,.7,.2,1),top 700ms cubic-bezier(.22,.7,.2,1),width 700ms cubic-bezier(.22,.7,.2,1),height 700ms cubic-bezier(.22,.7,.2,1),opacity 300ms ease}
+#works .dance-side-fade,#works .game-side-fade{z-index:2!important;transition:opacity 350ms ease;}
+#works .game2-retry,#works .game2-score,#works .game2-match{transition:opacity 300ms ease;}
+#works .works-return-arrow{z-index:10;cursor:pointer;transition:opacity 180ms ease;}
+#works .pages2-guide{transition:opacity 180ms ease;}
+#works[data-works-state="dance"] .works-main-lines,#works[data-works-state="dance"] .works-main-pale,#works[data-works-state="dance"] .works-sub-pale{left:-415px!important}
+#works[data-works-state="game"] .works-main-lines,#works[data-works-state="game"] .works-main-pale,#works[data-works-state="game"] .works-sub-pale{left:-1344px!important}
+#works[data-works-state="dance"] .works-main-pale,#works[data-works-state="game"] .works-main-pale{opacity:0}
+#works[data-works-state="dance"] .works-sub-pale,#works[data-works-state="game"] .works-sub-pale{opacity:1!important}
+#works[data-works-state="dance"] .groupGAME{transform:translateX(100%)}
+#works[data-works-state="game"] .groupDANCE{transform:translateX(-100%)}
+#works[data-works-state="dance"] .dance1-title{left:88px!important;top:-5px!important;font-size:301.279px!important}
+#works[data-works-state="dance"] .dance1-gallery{left:96px!important;top:448px!important;width:704px!important;height:576px!important;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;touch-action:pan-y;pointer-events:auto!important}
+#works[data-works-state="dance"] .dance1-gallery-content{width:704px!important;height:1505.902px!important}
+#works[data-works-state="dance"] .dance1-gallery-art{transform:scale(1.74599)}
+#works[data-works-state="dance"] .dance1-highlights{left:96px!important;top:350px!important;opacity:1!important}
+#works[data-works-state="dance"] .works-overview-bottom-fade{left:0!important;top:934px!important;width:1440px!important;height:272px!important;opacity:1}
+#works[data-works-state="dance"] .dance-side-fade{opacity:1!important}
+#works[data-works-state="game"] .works-overview-bottom-fade{opacity:0}
+#works[data-works-state="game"] .game-side-fade{opacity:1!important}
+#works[data-works-state="game"] .game1-title{left:842px!important;top:8px!important;font-size:238.221px!important}
+#works[data-works-state="game"] .game1-cards{transform:translate(-112.59px,15.44px) scale(1.12377)}
+#works[data-works-state="game"] .game2-retry,#works[data-works-state="game"] .game2-score,#works[data-works-state="game"] .game2-match{opacity:1!important}
+#works[data-works-state="dance"] .pages2-guide,#works[data-works-state="game"] .pages2-guide{opacity:0;pointer-events:none}
+#works .works-return-arrow{opacity:0;pointer-events:none}
+body.page-stationary #works[data-works-state="dance"].works-substate-stationary:not(.works-substate-moving).dance-right-hover .dance-return-arrow,body.page-stationary #works[data-works-state="game"].works-substate-stationary:not(.works-substate-moving) .game-return-arrow{opacity:1!important;pointer-events:auto!important}
+#works[data-works-state="dance"] .dance-return-arrow,#works[data-works-state="game"] .game-return-arrow{display:block}
+#works .dance-side-fade,#works .game-side-fade{pointer-events:none}
+#works[data-works-state="works"] .works-return-arrow{display:none}
+#works .works-overview-group{pointer-events:none}
+</style>
+<script data-works-substates>(function(){
+const section=document.querySelector('#works'),frame=document.querySelector('#works .work-overview-frame');if(!section||!frame)return;
+const pale=frame.querySelector('.works-sub-pale'),arrows=Array.from(frame.querySelectorAll('.works-return-arrow'));
+let settleTimer=0;
+function settle(){clearTimeout(settleTimer);settleTimer=setTimeout(function(){section.classList.remove('works-substate-moving');section.classList.add('works-substate-stationary');arrows.forEach(function(arrow){arrow.tabIndex=arrow.dataset.returnFrom===section.dataset.worksState?0:-1})},760)}
+function enter(state){if(section.dataset.worksState!=='works')return;section.classList.remove('works-substate-stationary');section.classList.add('works-substate-moving');pale.src=state==='dance'?'for coding/works-P3.svg':'for coding/works-P3.svg';section.dataset.worksState=state;settle()}
+function leave(){if(section.dataset.worksState==='works')return;if(section.dataset.worksState==='game'&&typeof window.resetMemoryGameForWorks==='function')window.resetMemoryGameForWorks();section.classList.remove('works-substate-stationary');section.classList.add('works-substate-moving');section.dataset.worksState='works';settle()}
+frame.addEventListener('click',function(event){const arrow=event.target.closest('.works-return-arrow');if(arrow){if(arrow.tabIndex<0||section.dataset.worksState!==arrow.dataset.returnFrom||!section.classList.contains('works-substate-stationary')||!document.body.classList.contains('page-stationary'))return;event.preventDefault();event.stopPropagation();leave();return}if(event.target.closest('.line-nav')||section.dataset.worksState!=='works'||!document.body.classList.contains('page-stationary'))return;const rect=frame.getBoundingClientRect(),x=event.clientX-rect.left;if(x<rect.width/3)enter('dance');else if(x>=rect.width*2/3)enter('game')});
+frame.addEventListener('pointermove',function(event){if(section.dataset.worksState!=='works'){frame.style.cursor='default';return}const rect=frame.getBoundingClientRect(),x=event.clientX-rect.left;frame.style.cursor=x<rect.width/3||x>=rect.width*2/3?'pointer':'default'});
+frame.addEventListener('pointermove',function(event){if(section.dataset.worksState!=='dance'){section.classList.remove('dance-right-hover');return}const rect=frame.getBoundingClientRect();section.classList.toggle('dance-right-hover',event.clientX>=rect.left+rect.width/2)});
+frame.addEventListener('pointerleave',function(){section.classList.remove('dance-right-hover')});
+document.addEventListener('wheel',function(event){const state=section.dataset.worksState;if(state!=='dance'&&state!=='game')return;const rect=frame.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>=rect.right||event.clientY<rect.top||event.clientY>=rect.bottom)return;event.preventDefault();event.stopPropagation();if(state==='dance'){const raw=event.deltaMode===1?event.deltaY*16:event.deltaMode===2?event.deltaY*frame.clientHeight:event.deltaY;frame.querySelector('.dance1-gallery').scrollTop+=raw}},{capture:true,passive:false});
+frame.addEventListener('keydown',function(event){if((event.key==='Enter'||event.key===' ')&&event.target.matches('.works-return-arrow')){event.preventDefault();if(section.classList.contains('works-substate-stationary'))leave()}});
+})();</script>
+<script data-memory-game>(function(){
+const cards=Array.from(document.querySelectorAll('.memory-card'));
+if(!cards.length)return;
+const faces=['B1','B1','B2','B2','B3','B3'];
+const score=document.querySelector('.game2-score');
+const retry=document.querySelector('.game2-retry');
+let first=null,locked=false,matches=0,hideTimer=0;
+function shuffle(values){for(let i=values.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[values[i],values[j]]=[values[j],values[i]]}return values}
+function deal(){
+  clearTimeout(hideTimer);first=null;locked=false;matches=0;
+  const dealFaces=shuffle(faces.slice());
+  cards.forEach(function(card,index){card.dataset.face=dealFaces[index];card.classList.remove('is-flipped','is-matched');card.setAttribute('aria-label','Card '+(index+1)+', face down');const img=card.querySelector('.memory-card-front img');img.src='for%20coding/game-'+dealFaces[index]+'.png';img.alt=dealFaces[index]+' card face'});
+  if(score)score.textContent='0/3';
+}
+function resetForWorks(){
+  clearTimeout(hideTimer);first=null;locked=false;matches=0;
+  cards.forEach(function(card,index){card.classList.remove('is-flipped','is-matched');card.setAttribute('aria-label','Card '+(index+1)+', face down')});
+  if(score)score.textContent='0/3';
+}
+window.resetMemoryGameForWorks=resetForWorks;
+function reveal(card){
+  if(locked||card.classList.contains('is-flipped')||card.classList.contains('is-matched'))return;
+  card.classList.add('is-flipped');card.setAttribute('aria-label','Card '+(cards.indexOf(card)+1)+', '+card.dataset.face);
+  if(!first){first=card;return}
+  const other=first;first=null;
+  if(other.dataset.face===card.dataset.face){other.classList.add('is-matched');card.classList.add('is-matched');matches++;if(score)score.textContent=matches+'/3';return}
+  locked=true;
+  hideTimer=setTimeout(function(){[other,card].forEach(function(item){item.classList.remove('is-flipped');item.setAttribute('aria-label','Card '+(cards.indexOf(item)+1)+', face down')});locked=false},850)
+}
+cards.forEach(function(card){card.addEventListener('click',function(){reveal(card)})});
+if(retry)retry.addEventListener('click',deal);
+deal();
+})();</script></body></html>
